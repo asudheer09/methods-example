@@ -18,6 +18,14 @@ public class StringReversExample {
 		}
 		
 		System.out.println("reverse of the string is "+reverse);
+		/*
+		 * int x=20; int y=20; System.out.println(x==y); //true
+		 */		
+		if(word.equals(reverse)) {
+			System.out.println("given String is palindrome");
+		}else {
+			System.out.println("given String is not palindrome");
+		}
 		
 	}
 
